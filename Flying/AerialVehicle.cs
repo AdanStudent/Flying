@@ -8,28 +8,33 @@ namespace Flying
     {
         #region Fields
 
+        private Engine _engine;
+        private int _currentAltitude;
+        private bool _isFlying;
+        private int _maxAltitude;
+
         public Engine Engine
         {
-            get { return this.Engine; }
-            set { this.Engine = value; }
+            get { return this._engine; }
+            set { this._engine = value; }
         }
 
         public int CurrentAltitude
         {
-            get { return this.CurrentAltitude; }
-            set { this.CurrentAltitude = value; }
+            get { return this._currentAltitude; }
+            set { this._currentAltitude = value; }
         }
 
         public bool IsFlying
         {
-            get { return this.IsFlying; }
-            set { this.IsFlying = value; }
+            get { return this._isFlying; }
+            set { this._isFlying = value; }
         }
 
         public int MaxAltitude
         {
-            get { return this.MaxAltitude; }
-            set { this.MaxAltitude = value; }
+            get { return this._maxAltitude; }
+            set { this._maxAltitude = value; }
         }
         #endregion
 
