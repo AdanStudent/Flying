@@ -87,10 +87,11 @@ namespace Flying
         /// <returns></returns>
         public string Land(List<AerialVehicle> Landing)
         {
+            string takeOff = "\n";
+
             //check if AerialVehicle is at ground level
             foreach (var a in Landing)
             {
-
                 if (a.CurrentAltitude == 0)
                 {
                     //and if the Airport isn't full then add it
@@ -99,12 +100,17 @@ namespace Flying
                         //set it's IsFlying to false
                         a.IsFlying = false;
                         Vehicles.Add(a);
-                        return String.Format("{0} has landed", a.GetType());
+                        takeOff += String.Format("{0} has landed\n", a.GetType());
+                    }
+                    else
+                    {
+                        takeOff += String.Format("{0} was unable to land\n", a.GetType());
                     }
                 }
             }
 
-            return String.Format("{0} was unable to land", a.GetType());
+            return takeOff;
+
         }
 
 
