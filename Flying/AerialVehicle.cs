@@ -123,7 +123,7 @@ namespace Flying
 
         }
 
-        virtual public string getEngineStartedString()
+        virtual protected string getEngineStartedString()
         {
             return "";
         }
@@ -142,6 +142,7 @@ namespace Flying
         {
             if (this.Engine.IsStarted)
             {
+                IsFlying = true;
                 return String.Format("{0} is flying", this.GetType());
             }
             else

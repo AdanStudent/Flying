@@ -12,14 +12,14 @@ namespace Flying
             isWoundUP = false;
         }
 
-        public bool isWoundUP;
+        protected bool isWoundUP;
 
         public override string About()
         {
             return base.About();
         }
 
-        public string getWindUpString()
+        protected string getWindUpString()
         {
             return "";
         }
