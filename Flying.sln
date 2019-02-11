@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flying", "Flying\Flying.csproj", "{13B3277B-E0B8-4423-A56D-1949D10BE633}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flying", "Flying\Flying.csproj", "{13B3277B-E0B8-4423-A56D-1949D10BE633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestFlying", "NUnitTestFlying\NUnitTestFlying.csproj", "{4DEBA39B-3CEE-4DCA-B74B-CFDEAAF48DFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{13B3277B-E0B8-4423-A56D-1949D10BE633}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13B3277B-E0B8-4423-A56D-1949D10BE633}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13B3277B-E0B8-4423-A56D-1949D10BE633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEBA39B-3CEE-4DCA-B74B-CFDEAAF48DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEBA39B-3CEE-4DCA-B74B-CFDEAAF48DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEBA39B-3CEE-4DCA-B74B-CFDEAAF48DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEBA39B-3CEE-4DCA-B74B-CFDEAAF48DFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

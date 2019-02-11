@@ -67,8 +67,10 @@ namespace Flying
             Console.WriteLine("Call ap.FlyDown(ap.CurrentAltitude) this should land");
             ap.FlyDown(ap.CurrentAltitude); //Land by flying down current altitiute
             Console.WriteLine(ap.About());
+            Console.ReadLine();
         }
     }
+
+    }
 }
-}
-}
+
