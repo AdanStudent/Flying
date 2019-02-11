@@ -4,36 +4,32 @@ using System.Text;
 
 namespace Flying
 {
-    class AerialVehicle
+    abstract class AerialVehicle
     {
         #region Fields
-        private Engine _engine;
-        private int _currentAltitude;
-        private bool _isFlying;
-        private int _maxAltitude;
 
         public Engine Engine
         {
-            get { return this._engine; }
-            set { this._engine = value; }
+            get { return this.Engine; }
+            set { this.Engine = value; }
         }
 
         public int CurrentAltitude
         {
-            get { return this._currentAltitude; }
-            set { this._currentAltitude = value; }
+            get { return this.CurrentAltitude; }
+            set { this.CurrentAltitude = value; }
         }
 
         public bool IsFlying
         {
-            get { return this._isFlying; }
-            set { this._isFlying = value; }
+            get { return this.IsFlying; }
+            set { this.IsFlying = value; }
         }
 
         public int MaxAltitude
         {
-            get { return this._maxAltitude; }
-            set { this._maxAltitude = value; }
+            get { return this.MaxAltitude; }
+            set { this.MaxAltitude = value; }
         }
         #endregion
 
