@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Flying
 {
-    class ToyPlane : Airplane
+    public class ToyPlane : Airplane
     {
         public ToyPlane()
         {
