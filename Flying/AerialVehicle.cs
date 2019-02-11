@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Flying
 {
-    abstract class AerialVehicle
+    public abstract class AerialVehicle
     {
         #region Fields
 
@@ -43,6 +43,8 @@ namespace Flying
         public AerialVehicle()
         {
             this.Engine = new Engine();
+            this.CurrentAltitude = 0;
+            this.IsFlying = false;
 
             if (this.Engine.IsStarted)
             {

@@ -1,6 +1,6 @@
 ﻿namespace Flying
 {
-    class Airplane : AerialVehicle
+    public class Airplane : AerialVehicle
     {
         public Airplane()
         {
